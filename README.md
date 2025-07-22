@@ -1,39 +1,85 @@
-# Customer Personality data
-This project analyzes customer personality data to segment consumers based on demographics and purchasing behavior. The goal is to derive meaningful clusters and identify patterns for better business decision-making and targeted marketing.
+# 👥 Customer Personality Analysis
 
-📁 Project Structure
+This project analyzes customer personality data to segment consumers based on demographics and purchasing behavior. The goal is to derive meaningful clusters and identify patterns to support better business decisions and enable targeted marketing strategies.
 
-Cleaned_CustomerPersonalityData.csv: Preprocessed dataset used for analysis.
-Project2.py: Python script version of the project containing data preprocessing, clustering, and analysis code.
-Project_2.ipynb: Jupyter Notebook version for exploratory data analysis, model training, and visualization.
-🧪 Objectives
+---
 
-Understand customer purchasing behavior through clustering.
-Engineer meaningful features such as Age, Household Size, Spending, Parenthood, and Relationship Status.
-Apply clustering algorithms to segment customers effectively.
-🛠️ Methods and Tools
+## 📁 Project Structure
 
-Languages & Libraries: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-Techniques:
-Data Cleaning & Feature Engineering
-Standardization & Dimensionality Reduction (PCA)
-Clustering: KMeans, Gaussian Mixture Model (GMM), Hierarchical Clustering
-Evaluation: Silhouette Score, BIC
-📊 Key Features Engineered
+- `Cleaned_CustomerPersonalityData.csv` – Preprocessed dataset used for clustering analysis  
+- `Project2.py` – Python script containing data preprocessing, clustering models, and final evaluation  
+- `Project_2.ipynb` – Jupyter Notebook version for exploratory data analysis, visualization, and modeling  
 
-Age: Derived from birth year.
-Membership_Duration: Number of years since customer joined.
-Spending_Total: Sum of all product category spending.
-HouseHoldSize: Computed from relationship status and number of children.
-Parent: Flag indicating parenthood status.
-📈 Results Summary
+---
 
-Achieved optimal clustering using GMM with 9 clusters (lowest BIC score).
-Final clusters included:
-High-Income Parents
-Low-Income Parents
-High-Income Non-Parents
-Low-Income Non-Parents
-Elders
+## 🧪 Objectives
 
-For the full dataset please click this link for kaggle: [Customer Personality Data](https://www.kaggle.com/code/karnikakapoor/customer-segmentation-clustering) 
+- Understand customer purchasing behavior through unsupervised learning  
+- Engineer meaningful features like Age, Household Size, Spending, Parenthood, and Relationship Status  
+- Apply clustering algorithms to segment customers effectively and interpret the clusters  
+
+---
+
+## 🛠️ Methods and Tools
+
+**Languages & Libraries:**
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+
+**Techniques:**
+- Data Cleaning & Feature Engineering  
+- Standardization & PCA for dimensionality reduction  
+- Clustering:
+  - KMeans  
+  - Gaussian Mixture Model (GMM)  
+  - Hierarchical Clustering  
+- Evaluation Metrics:
+  - Silhouette Score  
+  - Bayesian Information Criterion (BIC)  
+
+---
+
+## 📊 Key Features Engineered
+
+- `Age` – Derived from birth year  
+- `Membership_Duration` – Number of years since customer joined  
+- `Spending_Total` – Combined spending across all product categories  
+- `HouseHoldSize` – Based on relationship status and number of children  
+- `Parent` – Boolean flag indicating if the customer is a parent  
+
+---
+
+## 📈 Results Summary
+
+- Optimal clustering achieved using GMM with 9 clusters (lowest BIC score)  
+- Final segment definitions included:
+  - High-Income Parents  
+  - Low-Income Parents  
+  - High-Income Non-Parents  
+  - Low-Income Non-Parents  
+  - Elders  
+
+---
+
+## 📂 Dataset
+
+The full dataset is available on **Kaggle**:  
+👉 [Customer Personality Analysis Dataset](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+
+---
+
+## 👨‍💻 Author
+
+**Jared Gonzalez**, 
+**A Sai Prasanth Reddy**,
+**Tejaswi Chigurupati**,
+California State University, San Bernardino  
+Minor in Data Science  
+
+---
+
+## 📃 License
+
+This project is for academic purposes and is shared under the MIT License.
