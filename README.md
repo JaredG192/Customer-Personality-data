@@ -81,6 +81,7 @@ California State University, San Bernardino
 Bachelors in Science, Computer Science, 
 Minor in Data Science  
 
+
 ---
 
 ## 📃 License
