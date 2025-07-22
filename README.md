@@ -70,7 +70,7 @@ The full dataset is available on **Kaggle**:
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
 **Jared Gonzalez**, 
 **A Sai Prasanth Reddy**,
