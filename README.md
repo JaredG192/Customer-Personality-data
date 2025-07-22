@@ -35,3 +35,5 @@ Low-Income Parents
 High-Income Non-Parents
 Low-Income Non-Parents
 Elders
+
+For the full dataset please click this link for kaggle: [Customer Personality Data](https://www.kaggle.com/code/karnikakapoor/customer-segmentation-clustering) 
