@@ -77,7 +77,7 @@ The full dataset is available on **Kaggle**:
 **Tejaswi Chigurupati**,
 
 California State University, San Bernardino
-Bachelors in Science, Computer Science
+Bachelors in Science, Computer Science, 
 Minor in Data Science  
 
 ---
