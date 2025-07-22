@@ -74,7 +74,7 @@ The full dataset is available on **Kaggle**:
 
 **Jared Gonzalez**, 
 **A Sai Prasanth Reddy**,
-**Tejaswi Chigurupati**,
+**Tejaswi Chigurupati**
 
 California State University, San Bernardino
 Bachelors in Science, Computer Science, 
